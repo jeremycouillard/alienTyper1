@@ -54,9 +54,9 @@ char buffer[90];    // make sure this is large enough for the largest string it 
 void setup()
 {
   Serial.begin(9600);
-  pinMode(2, INPUT_PULLUP);
-  pinMode(9, OUTPUT);
-  pinMode(8, OUTPUT);
+  pinMode(OnOffSwitch, INPUT_PULLUP);
+  pinMode(solenoid2, OUTPUT);
+  pinMode(solenoid1, OUTPUT);
   // randomize
   randomSeed(analogRead(0));
 }
