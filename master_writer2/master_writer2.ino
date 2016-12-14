@@ -1,3 +1,8 @@
+//Uses an arduino leonardo to type random strings into a chat app while turning solenoids 
+//on and off to make a life sized alien look like he's typing on a laptop
+//2016-2017 part of Alien Afterlife show at Yours Mine and Ours
+//jeremy couillard
+
 #include <avr/pgmspace.h>
 #include <Keyboard.h>
 
