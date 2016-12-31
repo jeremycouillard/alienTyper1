@@ -34,21 +34,21 @@ const char string_14[] PROGMEM = "When I finished off-gassing my girlfriend boug
 const char string_15[] PROGMEM = "I have a netflix account for my dreams.";
 const char string_16[] PROGMEM = "Did New Amsterdam have a baseball team?";
 const char string_17[] PROGMEM = "My press release is the Sonian Forest.";
-const char string_18[] PROGMEM = "I’ll write you a check for five hundred elephants.";
+const char string_18[] PROGMEM = "I'll write you a check for five hundred elephants.";
 const char string_19[] PROGMEM = "I had a dream last night that I was Costco.";
 const char string_20[] PROGMEM = "My drug dealer sleeps at Ikea.";
 const char string_21[] PROGMEM = "What do you want for dinner?";
 const char string_22[] PROGMEM = "My fantasy breakfast is a Ferrari.";
-const char string_23[] PROGMEM = "I’m trying to get our company a grant for a new jet ski";
-const char string_24[] PROGMEM = "My cat’s mom is an asshole.";
-const char string_25[] PROGMEM = "The war is over and wasn’t worth it at all.";
+const char string_23[] PROGMEM = "I'm trying to get our company a grant for a new jet ski";
+const char string_24[] PROGMEM = "My cat's mom is an asshole.";
+const char string_25[] PROGMEM = "The war is over and wasn't worth it at all.";
 const char string_26[] PROGMEM = "Poland Springs is mind control water given to us by aliens so we mine gold for them.";
-const char string_27[] PROGMEM = "I guess the Great Gatsby really wasn’t great and just a metaphor for dickheads.";
+const char string_27[] PROGMEM = "I guess the Great Gatsby really wasn't great and just a metaphor for dickheads.";
 const char string_28[] PROGMEM = "When we were 16 we invaded the dreams of babies.";
 const char string_29[] PROGMEM = "Robert wore 15 collared shirts at once to a dance.";
 const char string_30[] PROGMEM = "I think Sam knows how to do that.";
 const char string_31[] PROGMEM = "Do you have any environmentally friendly cleaners?";
-const char string_32[] PROGMEM = "I don’t recycle but my shoes are morally ok.";
+const char string_32[] PROGMEM = "I don't recycle but my shoes are morally ok.";
 const char string_33[] PROGMEM = "500 years ago I was an advertising executive on the edge of the galaxy.";
 const char string_34[] PROGMEM = "My landlord is a lizard dedicated to the destruction of everything I cherish.";
 const char string_35[] PROGMEM = "For 10 dollars I will draw you a picture of a cactus.";
@@ -60,7 +60,7 @@ const char string_40[] PROGMEM = "4,939,230 ants coming together to create an im
 const char string_41[] PROGMEM = "The medium is the massage parlors.";
 const char string_42[] PROGMEM = "I got my black belt in the dojo next to the dollar store.";
 const char string_43[] PROGMEM = "Does your dad know you smoke?";
-const char string_44[] PROGMEM = "If you don’t update your software a black hole will consume five million civilizations.";
+const char string_44[] PROGMEM = "If you don't update your software a black hole will consume five million civilizations.";
 const char string_45[] PROGMEM = "300 kittens in an art gallery pooping and peeing all over each other.";
 const char string_46[] PROGMEM = "My least favorite thing is washing dishes.";
 const char string_47[] PROGMEM = "A chair and a television and a video game.";
@@ -83,7 +83,7 @@ void setup()
 
 void typeTheSentence() {
     
-  delayBetweenTyping = random(1000, 2001); //2000, 6001 normally
+  delayBetweenTyping = random(2000, 6001); //2000, 6001 normally
   
 //make an ordered list
 int list[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49};
